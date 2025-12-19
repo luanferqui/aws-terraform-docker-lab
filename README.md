@@ -15,7 +15,7 @@ O fluxo de trabalho consistiu em criar a imagem Docker localmente, enviá-la par
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Linguagem:** [Python / Node.js / Java - coloque a que usou]
+* **Linguagem:** [HTML]
 * **Containerização:** Docker
 * **Cloud Provider:** AWS (Amazon Web Services)
 * **Serviços AWS:**
