@@ -1,0 +1,11 @@
+# Ignorar arquivos do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# Ignorar chaves e credenciais
+*.pem
+*.csv
+.env
