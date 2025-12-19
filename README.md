@@ -1,4 +1,4 @@
-# [Docker AWS Lab]
+# Docker AWS Lab
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -15,7 +15,7 @@ O fluxo de trabalho consistiu em criar a imagem Docker localmente, enviá-la par
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Linguagem:** [HTML]
+* **Linguagem:** [HCL (Terraform)]
 * **Containerização:** Docker
 * **Cloud Provider:** AWS (Amazon Web Services)
 * **Serviços AWS:**
@@ -42,13 +42,13 @@ Pré-requisitos: Docker instalado.
 
 ```bash
 # Clone este repositório
-$ git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/[NOME-DO-REPO].git
+$ git clone https://github.com/luanferqui/aws-terraform-docker-lab.git
 
 # Acesse a pasta do projeto
-$ cd [NOME-DO-REPO]
+cd aws-terraform-docker-lab
 
 # Construa a imagem Docker
-$ docker build -t nome-da-imagem .
+docker build -t app-devops .
 
 # Rode o container
-$ docker run -d -p 8080:80 nome-da-imagem
+docker run -d -p 8080:80 app-devops
